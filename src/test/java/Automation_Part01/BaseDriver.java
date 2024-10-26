@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeSuite;
 
 public class BaseDriver {
 
-    public static WebDriver driver;
+    public static WebDriver driver;  //Creating webDriver object
 
     @BeforeSuite
     public void startBrowser() {
@@ -32,8 +32,6 @@ public class BaseDriver {
             driver.manage().window().maximize();
 
         }
-
-        //demo for practice in git
 
     }
 
