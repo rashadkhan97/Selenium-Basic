@@ -16,7 +16,7 @@ public class LocateByName extends BaseDriver {
     @Test
     public void LocateByName() throws InterruptedException {
         WebElement email = driver.findElement(By.name("email"));
-        email.sendKeys("Rashadul Islam Rabbi");
+        email.sendKeys("Md.Rashadul Islam Rabbi");
         Thread.sleep(5000);
     }
 }
